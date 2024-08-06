@@ -1,37 +1,55 @@
 # Number Guessing Game
 
-## Description
+## Overview
 
-The Number Guessing Game is a Python script where players try to guess a randomly generated number between 1 and 100. Players have a maximum of 15 attempts to guess the number correctly. The game provides feedback on each guess and allows players to play multiple rounds.
+Welcome to the Number Guessing Game repository! This interactive Python script challenges players to guess a randomly generated number between 1 and 100. Players have up to 15 attempts to guess the number correctly. The game provides feedback on each guess and allows players to play multiple rounds.
 
 ## Features
 
-- **Random Number Generation:** The game generates a random number between 1 and 100.
-- **Attempt Limitation:** Players have up to 15 attempts to guess the correct number.
-- **Input Validation:** Handles invalid inputs and prompts the player to enter a valid number.
-- **Feedback System:** Informs players if their guess is too low or too high.
-- **Replay Option:** Players can choose to play again or exit after each game.
+- **Random Number Generation:** Generates a number between 1 and 100 for each game.
+- **Limited Attempts:** Players have up to 15 attempts to guess the number.
+- **Input Validation:** Ensures only valid numerical inputs are accepted.
+- **Feedback System:** Provides feedback if guesses are too low or too high.
+- **Replay Option:** Allows players to start a new game or exit after each round.
 
-## Installation
+## How to Play
 
-1. **Prerequisites:**
-   - Ensure Python 3.x is installed on your computer.
-
-2. **Download the Script:**
-   - Copy the Python code into a file named `number_guessing_game.py`.
-
-## Usage
-
-1. **Run the Game:**
+1. **Run the Script:**
    - Open your terminal or command prompt.
    - Navigate to the directory where `number_guessing_game.py` is saved.
-   - Run the script with the following command:
+   - Execute the script with the following command:
      ```bash
      python number_guessing_game.py
      ```
 
 2. **Gameplay Instructions:**
    - Follow the on-screen prompts to make guesses.
-   - The game will notify you if your guess is too low or too high.
-   - After using up all attempts or guessing the number correctly, you will have the option to play again or exit.
+   - The game will indicate whether your guess is too low or too high.
+   - Use up to 15 attempts to guess the correct number.
+   - After guessing correctly or exhausting all attempts, you can choose to play again or exit.
 
+## Installation
+
+To run the game on your local machine:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/harshithabannu/number-guessing-game.git
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd number-guessing-game
+3. **Ensure you have Python installed.**
+4. **Run the Game Script:**
+   python number_guessing_game.py
+
+## Usage
+
+Each game script can be run independently. Follow the on-screen prompts to make choices and experience the game. Your decisions will impact the outcome, so choose wisely!
+
+## Contributing
+
+Contributions are welcome! If you want to enhance the games or add new features, please fork the repository, make your changes, and submit a pull request. Include a description of your changes and any relevant information.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
